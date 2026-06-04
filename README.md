@@ -36,15 +36,6 @@ This is my personal developer portfolio built to showcase my skills, projects, e
 - 📱 Fully responsive modern UI
 
 ---
+## ⭐ Acknowledgements
 
-## 📂 Project Structure
-portfolio/
-├── src/
-│ ├── components/
-│ ├── assets/
-│ ├── App.jsx
-│ └── main.jsx
-├── public/
-├── index.html
-├── package.json
-└── vite.config.js
+Built with passion for learning, cloud engineering, and real-world deployment experience.
