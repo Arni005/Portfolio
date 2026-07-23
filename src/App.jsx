@@ -132,10 +132,22 @@ const App = () => {
       repo: 'Three_Tier_Architecture', gradient: 'from-yellow-700 to-amber-500'
     },
     {
-      title: 'CI/CD Pipeline', tech: 'AWS · Docker', category: 'DevOps',
-      desc: 'Automated builds and deployments via AWS CodePipeline, AWS CodeBuild, and Docker.',
-      tags: ['AWS', 'Docker', 'CI/CD'], icon: <Rocket className="w-5 h-5" />,
-      repo: 'Continuous-Intigration-Deployment-Project', gradient: 'from-yellow-700 to-amber-500'
+      title: 'Network Intrusion Detection System', tech: 'FastAPI · XGBoost', category: 'CyberSec',
+      desc: 'Autonomous defence pipeline: ML detection→ IP flagging→ LLM-powered honeypot deception→ attacker technique classification→ auto-hardening→ permanent block, with zero human intervention required.',
+      tags: ['FastAPI', 'WebSocket', 'XGBoosts'], icon: <Shield className="w-5 h-5" />,
+      repo: 'Network-Intrusion-Detection-System', gradient: 'from-yellow-700 to-amber-500'
+    },
+    {
+      title: '2048 Game', tech: 'AWS · EKS', category: 'DevOps',
+      desc: 'Provisioning an EKS cluster with proper VPC, subnet, and security group configuration and Configuring an OIDC identity provider for authentication.',
+      tags: ['AWS', 'EKS', 'Kubectl'], icon: <Rocket className="w-5 h-5" />,
+      repo: '2048_Game', gradient: 'from-yellow-700 to-amber-500'
+    },
+    {
+      title: 'MultiEnvironment AWS Infrastructure', tech: 'AWS · Terragrunt', category: 'Cloud Infra',
+      desc: 'Multi-environment AWS infrastructure provisioned, validated, and deployed through a CI/CD pipeline with policy checks, security scanning, and cost visibility built in.',
+      tags: ['AWS', 'Terraform', 'Terragrunt'], icon: <Cloud className="w-5 h-5" />,
+      repo: 'multi-env-aws-infra', gradient: 'from-yellow-700 to-amber-500'
     },
     {
       title: 'RuralFund', tech: 'Cloud · FinTech', category: 'FinTech',
@@ -160,6 +172,12 @@ const App = () => {
       desc: 'Digital library platform with REST APIs and MongoDB-backed management.',
       tags: ['Django', 'MongoDB', 'DRF'], icon: <Layers className="w-5 h-5" />,
       repo: 'elibrary', gradient: 'from-yellow-700 to-amber-500'
+    },
+    {
+      title: 'CI/CD Pipeline', tech: 'AWS · Docker', category: 'DevOps',
+      desc: 'Automated builds and deployments via AWS CodePipeline, AWS CodeBuild, and Docker.',
+      tags: ['AWS', 'Docker', 'CI/CD'], icon: <Rocket className="w-5 h-5" />,
+      repo: 'Continuous-Intigration-Deployment-Project', gradient: 'from-yellow-700 to-amber-500'
     },
   ];
 
